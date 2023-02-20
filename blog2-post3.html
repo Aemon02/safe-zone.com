@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Safe Zone</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <!--link to css-->
+        <link rel="stylesheet" href="style.css">
+        <!--link to icons-->
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+
+
+        <!-- Navigation-->
+        <nav>
+            <img src="image/logo3.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close"class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <!-- <li><a href="about.html">About</a></li> -->
+                    <li><a class="active" href="blog.html">Article</a></li>
+                    <!-- <li><a href="course.html">Courses</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/barflat.png" alt="">
+            </div>
+        </nav>
+
+
+        <!-- Home-->
+        <section id="blog-container">
+            <div class='blogs blogpost'>
+                <div class="post">
+                    <img src="image/rights.webp" alt="">
+                    <h3>เพราะอะไรสิทธิของผู้มีความหลากหลายทางเพศ (LGBTI) จึงสำคัญ?</h3>
+                    <p>ทุกคนควรได้รู้สึกภูมิใจในตัวตนและคนที่รัก และมีสิทธิที่จะแสดงออกอย่างเสรี โดยข้อ 19 ของปฏิญญาสากลว่าด้วยสิทธิมนุษยชน (ที่อธิบายสิทธิที่ทุกคนได้รับความคุ้มครองเป็นครั้งแรก) ปกป้องเสรีภาพในการแสดงออกของทุกคน
+                        <br><br>การหยุดโฮโมโฟเบียและทรานส์โฟเบียสามารถช่วยชีวิตคนได้ การคุกคามของพวกที่ต่อต้าน LGBTI ทำให้กลุ่มคนที่แสดงตนเป็น LGBTI ตกอยู่ในความเสี่ยงต่อร่างกายและจิตใจอย่างสูง เพราะทุกคนควรมีสิทธิต่อชีวิต เสรีภาพ และความปลอดภัย
+                        <br><br>การยอมรับกลุ่มคน LGBTI และเข้าใจตัวตนของพวกเขาจะลบล้างข้อจำกัดที่เกิดจากการเหมารวมลักษณะทางเพศ (gender stereotypes) การเหมารวมเหล่านี้ส่งผลเสียในสังคม ทั้งกำหนดและจำกัดวิถีชีวิตของคน การขจัดการเหมารวมจะปลดปล่อยให้ทุกคนบรรลุศักยภาพได้อย่างเต็มที่โดยปราศจากข้อจำกัดอันแบ่งแยกของสังคม
+                        <br><br>กลุ่มคน LGBTI โดยเฉพาทรานส์เจนเดอร์และคนที่แสดงออกทางเพศที่ไม่ตรงกับบรรทัดฐานของสังคม (gender nonconforming) มักเสี่ยงต่อการกีดกันทางเศรษฐกิจและสังคม การต่อสู้เพื่อกฎหมายที่เข้าถึงคนมากขึ้นโดยไม่คำนึงถึงรสนิยมทางเพศและอัตลักษณ์ทางเพศจะช่วยให้กลุ่มคนเหล่านี้เข้าถึงสิทธิทางสุขภาพ การศึกษา ที่อยู่อาศัย และการจ้างงานมากขึ้น
+                        
+                    </p>
+                    
+                    <a href="https://www.amnesty.or.th/our-work/lgbt/">content source</a>
+                    <a href="blog2-post2.html">read previous</a>
+                    <a href="blog0-post1.html">Read Next</a>
+                </div>  
+                                
+            </div>
+            
+        </section>
+
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+        
+    </body>
+</html>

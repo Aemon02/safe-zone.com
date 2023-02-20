@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Safe Zone</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <!--link to css-->
+        <link rel="stylesheet" href="style.css">
+        <!--link to icons-->
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+
+
+        <!-- Navigation-->
+        <nav>
+            <img src="image/logo3.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close"class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="quiz.html">Quiz</a></li>
+                    <!-- <li><a href="about.html">About</a></li> -->
+                    <li><a href="blog.html">Article</a></li>
+                    <!-- <li><a href="course.html">Courses</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/barflat.png" alt="">
+            </div>
+        </nav>
+
+        <section id="about-home">
+            <h2>Let's do a comprehension assessment</h2>
+        </section>
+
+        <section id="quiz">
+            <div class="read-quiz">
+                <h2>การประเมินความรู้ความเข้าใจ</h2>
+                <img src="image/poster.jpg" alt="">
+                <p><i class="far fa-clipboard"></i>ร่วมทำแบบทดสอบ</p>
+                <div class="quiz-btn">
+                    <a class="purple" href="https://docs.google.com/forms/d/e/1FAIpQLScCaUMCHJVFBXc1GZOeuKcmxwBafOlrjKFh9Tjs8A02uAXhmA/viewform?usp=sharing">Click</a>
+                </div>
+                <p><i class="far fa-question-circle"></i>บอกปัญหาที่คุณพบ</p>
+                <div class="quiz-btn">
+                    <a class="purple" href="https://forms.gle/rN4i5GZ3NAJHGjB4A">Click</a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <script>
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+    </body>
+</html>
